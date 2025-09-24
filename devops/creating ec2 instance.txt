@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-0360c520857e3138f --count 1 --instance-type t2.micro --key-name labkey --security-groups ec2defaultSG --iam-instance-profile Name="ec2dafultrole" --user-data file://"C:\Users\psycho\Desktop\Uni\3 course\devops\lab2\userdata.txt"
